@@ -17,8 +17,8 @@ namespace Day1
 
             Console.WriteLine($"Increased {increase} times");
 
-            ICalculate calc = new CalculatePartTwo();
-            increase = calc.Calculate(arr);
+            ICalculate calcTwo = new CalculatePartTwo();
+            increase = calcTwo.Calculate(arr);
 
             Console.WriteLine($"Increased {increase} times");
         }
